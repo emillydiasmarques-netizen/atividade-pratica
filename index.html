@@ -183,12 +183,53 @@
                 </article>
 
                 <article class="card">
-                    <h3>❓ Quiz</h3>
-                    <p>
-                        Teste seus conhecimentos com perguntas divertidas.
-                    </p>
-                    <button>Começar quiz</button>
-                </article>
+    <h3>❓ Quiz de conhecimentos</h3>
+
+    <p>
+        Responda às perguntas e veja quantos pontos você consegue fazer!
+    </p>
+
+    <button id="iniciarQuiz">
+        🎮 Começar quiz
+    </button>
+</article>
+
+
+<!-- Área do Quiz -->
+<div id="quiz" class="quiz-container" style="display: none;">
+
+    <h3 id="numeroPergunta">Pergunta 1 de 5</h3>
+
+    <h2 id="pergunta">
+        Pergunta aparecerá aqui
+    </h2>
+
+    <div id="alternativas">
+        <!-- As alternativas serão criadas pelo JavaScript -->
+    </div>
+
+    <p id="resultadoResposta"></p>
+
+    <button id="proximaPergunta" style="display: none;">
+        ➡️ Próxima pergunta
+    </button>
+
+</div>
+
+
+<!-- Resultado final -->
+<div id="resultadoFinal" class="quiz-container" style="display: none;">
+
+    <h2>🎉 Quiz terminado!</h2>
+
+    <p id="pontuacaoFinal"></p>
+
+    <button id="jogarNovamente">
+        🔄 Jogar novamente
+    </button>
+
+</div>
+
 
                 <article class="card">
                     <h3>📖 Leitura</h3>
