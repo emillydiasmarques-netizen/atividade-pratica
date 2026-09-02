@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Viva Bem - Site para Idosos</title>
+
+    <!-- Arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>🌷 Viva Bem</h1>
+        <p>Um espaço feito para você</p>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#saude">Saúde</a>
+            <a href="#lembretes">Lembretes</a>
+            <a href="#contatos">Contatos</a>
+            <a href="#passatempos">Passatempos</a>
+        </nav>
+    </header>
+
+
+    <!-- Conteúdo principal -->
+    <main>
+
+        <!-- Página inicial -->
+        <section id="inicio">
+            <h2>Olá! Que bom ter você aqui! 😊</h2>
+
+            <p>
+                O Viva Bem foi criado para ajudar idosos a terem
+                uma rotina mais saudável, segura e divertida.
+            </p>
+
+            <div class="acessibilidade">
+                <h3>♿ Recursos de acessibilidade</h3>
+
+                <button id="aumentarTexto">
+                    🔎 Aumentar texto
+                </button>
+
+                <button id="diminuirTexto">
+                    🔍 Diminuir texto
+                </button>
+
+                <button id="altoContraste">
+                    🌓 Alto contraste
+                </button>
+
+                <button id="lerTexto">
+                    🔊 Ler página
+                </button>
+            </div>
+        </section>
+
+
+        <!-- Saúde -->
+        <section id="saude">
+            <h2>❤️ Cuidados com a saúde</h2>
+
+            <div class="cards">
+
+                <article class="card">
+                    <h3>🥗 Alimentação</h3>
+                    <p>
+                        Tenha uma alimentação variada, com frutas,
+                        verduras, legumes e bastante água.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>🚶 Atividade física</h3>
+                    <p>
+                        Movimente o corpo de acordo com suas possibilidades.
+                        Caminhadas leves podem ajudar no bem-estar.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>😴 Sono</h3>
+                    <p>
+                        Procure manter uma rotina de sono e tenha
+                        um ambiente tranquilo para descansar.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- Lembretes -->
+        <section id="lembretes">
+            <h2>📅 Meus lembretes</h2>
+
+            <p>
+                Use esta área para lembrar de compromissos,
+                consultas e outras atividades importantes.
+            </p>
+
+            <form id="formLembrete">
+
+                <label for="lembrete">
+                    Digite um lembrete:
+                </label>
+
+                <input
+                    type="text"
+                    id="lembrete"
+                    placeholder="Ex.: Consulta médica às 14h"
+                >
+
+                <button type="submit">
+                    ➕ Adicionar lembrete
+                </button>
+
+            </form>
+
+            <ul id="listaLembretes">
+                <!-- Os lembretes aparecerão aqui pelo JavaScript -->
+            </ul>
+        </section>
+
+
+        <!-- Contatos -->
+        <section id="contatos">
+            <h2>📞 Contatos importantes</h2>
+
+            <div class="cards">
+
+                <article class="card">
+                    <h3>🚑 Emergência</h3>
+                    <p>
+                        Em uma emergência, procure ajuda imediatamente.
+                    </p>
+                    <a href="tel:192">Ligar para 192</a>
+                </article>
+
+                <article class="card">
+                    <h3>👨‍👩‍👧 Família</h3>
+                    <p>
+                        Mantenha os contatos de familiares
+                        importantes sempre por perto.
+                    </p>
+                    <button>Adicionar contato</button>
+                </article>
+
+                <article class="card">
+                    <h3>👨‍⚕️ Médico</h3>
+                    <p>
+                        Tenha o contato do seu médico ou
+                        centro de saúde de confiança.
+                    </p>
+                    <button>Adicionar contato</button>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- Passatempos -->
+        <section id="passatempos">
+            <h2>🧠 Passatempos</h2>
+
+            <p>
+                Manter a mente ativa também pode ser divertido!
+            </p>
+
+            <div class="cards">
+
+                <article class="card">
+                    <h3>🧩 Quebra-cabeças</h3>
+                    <p>
+                        Resolva desafios para estimular o raciocínio.
+                    </p>
+                    <button>Jogar</button>
+                </article>
+
+                <article class="card">
+                    <h3>❓ Quiz</h3>
+                    <p>
+                        Teste seus conhecimentos com perguntas divertidas.
+                    </p>
+                    <button>Começar quiz</button>
+                </article>
+
+                <article class="card">
+                    <h3>📖 Leitura</h3>
+                    <p>
+                        Escolha um livro ou texto e reserve um momento
+                        do dia para a leitura.
+                    </p>
+                    <button>Ver dicas</button>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Rodapé -->
+    <footer>
+        <p>🌷 Viva Bem - Projeto escolar</p>
+        <p>Feito com carinho para facilitar o dia a dia.</p>
+    </footer>
+
+
+    <!-- Arquivo JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
